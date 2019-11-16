@@ -1,0 +1,144 @@
+/* Colors and fonts */
+
+body {
+  background-color: rgba(246,200,159,0.15);
+  color: rgba(0,0,0,0.7);
+  font-family: 'Playfair Display', serif;
+  font-size: 16px;
+  font-weight: lighter;
+}
+h1 {
+  color: #396362;
+  font-family: 'Caveat Brush', cursive;
+  font-size: 36px;
+  font-weight: 400;
+}
+h2 {
+  color: #FEC8A7;
+  font-family: 'Roboto', sans-serif;
+  font-size: 22px;
+  font-weight: 300;
+}
+a {
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  text-decoration: none;
+  transition: color 0.6s ease;
+}
+
+/* Content design with class */
+
+.container {
+  width: 700px;
+  margin: 40px auto;
+}
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
+
+.card-white {
+  background-color: white;
+  border-radius: 4px;
+  box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+  padding: 20px;
+  margin: 30px 0px;
+  text-align: center;
+}
+.img-circle {
+  border-radius: 50%;
+}
+.btn-green {
+  background-color: #4b8e8d;
+  border-radius: 4px;
+  color: white;
+  padding: 8px 12px;
+}
+.btn-green:hover {
+  background-color: #396362;
+  transition: background-color 0.6s ease;
+}
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+.list-inline li {
+  display: inline;
+  padding: 15px;
+}
+.list-inline i {
+  color: rgb(230,230,230);
+  font-size: 35px;
+}
+.list-inline i:hover {
+  color: #396362;
+  transition: color 0.6s ease;
+}
+.scroll-to-top {
+  position: fixed;
+  bottom: 40px;
+  right: 40px;
+}
+.scroll-to-top i {
+  color: #4b8e8d;
+  font-size: 28px;
+  transition: color 0.6s ease;
+}
+.scroll-to-top i:hover {
+  color: #396362;
+}
+.page-content {
+  margin-top: 70px;
+}
+.top-bar {
+  position: fixed;
+  width: 100%;
+  top: 0px;
+  left: 0px;
+  background-color: #4b8e8d;
+  text-align: center;
+}
+.top-bar ul {
+  list-style: none;
+  margin: 6px;
+}
+.top-bar li {
+  padding: 0px 30px;
+  display: inline;
+}
+
+@media (max-width: 720px) {
+  .top-bar li {
+    padding: 0px 20px;
+  }
+  a {
+    font-size: 14px;
+  }
+}
+
+.top-bar a:hover {
+  color: rgb(230,230,230);
+}
+
+/* Design ajustments with id */
+
+#introduction p {
+  margin-bottom: 40px;
+}
+#introduction {
+  padding: 20px 20px 40px 20px;
+}
+
